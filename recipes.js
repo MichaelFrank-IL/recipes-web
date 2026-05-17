@@ -94,7 +94,7 @@ window.familyRecipes = [
     "id": "authentic-hungarian-goulash",
     "title": "Authentic Hungarian Goulash",
     "category": "Baking",
-    "timeMinutes": 2,
+    "timeMinutes": 70,
     "servings": "Not listed",
     "source": "daringgourmet.com",
     "tags": [
@@ -224,7 +224,7 @@ window.familyRecipes = [
     "id": "cabbage-soup",
     "title": "Cabbage Soup",
     "category": "Baking",
-    "timeMinutes": 1,
+    "timeMinutes": 55,
     "servings": "Not listed",
     "source": "themediterraneandish.com",
     "tags": [
