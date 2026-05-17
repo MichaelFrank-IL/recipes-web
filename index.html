@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A simple family recipe collection with searchable meals, bakes, and favorites."
+    >
+    <title>Our Family Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <img class="hero-image" src="assets/family-table.png" alt="A kitchen table filled with homemade dishes and recipe cards">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Family cookbook</p>
+        <h1>Our Family Recipes</h1>
+        <p class="hero-copy">Dinner ideas, weekend bakes, and the dishes we come back to.</p>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="controls" aria-label="Recipe controls">
+        <label class="search-field">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="pasta, chicken, dessert">
+        </label>
+
+        <div class="filter-group" aria-label="Categories">
+          <button class="filter-button is-active" type="button" data-category="all">All</button>
+        </div>
+
+        <label class="sort-field">
+          <span>Sort</span>
+          <select id="sortSelect">
+            <option value="family">Family order</option>
+            <option value="title">A to Z</option>
+            <option value="time">Fastest first</option>
+          </select>
+        </label>
+
+        <button id="favoriteFilter" class="quiet-button" type="button" aria-pressed="false">Saved</button>
+      </section>
+
+      <section class="recipe-count" aria-live="polite">
+        <span id="recipeCount"></span>
+      </section>
+
+      <section id="recipeGrid" class="recipe-grid" aria-label="Recipes"></section>
+
+      <section id="recipeDetail" class="recipe-detail" aria-live="polite" hidden></section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made for the family table.</p>
+    </footer>
+
+    <script src="recipes.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
