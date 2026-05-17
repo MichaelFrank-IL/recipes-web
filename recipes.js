@@ -50,7 +50,6 @@ window.familyRecipes = [
     "tags": [
       "beef",
       "bowl",
-      "cauliflower",
       "rice",
       "sauce"
     ],
@@ -73,7 +72,7 @@ window.familyRecipes = [
       "1/2 cup scallions, sliced, plus more for garnish",
       "To garnish:",
       "sesame seeds",
-      "cooked rice or cauliflower rice"
+      "cooked rice"
     ],
     "steps": [
       "Mix all sauce ingredients in a bowl.",
